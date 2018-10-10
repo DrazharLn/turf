@@ -3,7 +3,7 @@ import { getCoord, getCoords, getGeom } from "@turf/invariant";
 
 // http://en.wikipedia.org/wiki/Even%E2%80%93odd_rule
 // modified from: https://github.com/substack/point-in-polygon/blob/master/index.js
-// which was modified from https://web.archive.org/web/20180115151705/https://wrf.ecse.rpi.edu//Research/Short_Notes/pnpoly.html
+// which was modified from https://wrf.ecse.rpi.edu/Research/Short_Notes/pnpoly.html
 /**
  * Takes a {@link Point} and a {@link Polygon} or {@link MultiPolygon} and determines if the point
  * resides inside the polygon. The polygon can be convex or concave. The function accounts for holes.
